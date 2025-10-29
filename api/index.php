@@ -522,6 +522,8 @@
         <article class="news-card news-card-text">
           <div class="news-body">
             <span class="news-category category-cultura" style="position: static; margin-bottom: 15px; display: inline-block;">Cultura</span>
+            <img src="<?php echo $cultura["imagen"]; ?>" class="news-image" 
+                 alt="<?php echo $cultura["titulo"]; ?>">
             <h3 class="news-title">
               <a href="#"><?php echo $cultura["titulo"]; ?></a>
             </h3>
@@ -539,6 +541,8 @@
         <article class="news-card news-card-text">
           <div class="news-body">
             <span class="news-category category-opinion" style="position: static; margin-bottom: 15px; display: inline-block;">Gente</span>
+            <img src="<?php echo $gente["imagen"]; ?>" class="news-image" 
+                 alt="<?php echo $gente["titulo"]; ?>">
             <h3 class="news-title">
               <a href="#"><?php echo $gente["titulo"]; ?></a>
             </h3>
@@ -568,6 +572,8 @@
         <article class="news-card news-card-small">
           <div class="news-body">
             <span class="news-category category-deportes" style="position: static; margin-bottom: 12px; display: inline-block;">Deportes</span>
+            <img src="<?php echo $deportes["imagen"]; ?>" class="news-image" 
+                 alt="<?php echo $deportes["titulo"]; ?>">
             <h3 class="news-title">
               <a href="#"><?php echo $deportes["titulo"]; ?></a>
             </h3>
@@ -584,6 +590,8 @@
         <article class="news-card news-card-small">
           <div class="news-body">
             <span class="news-category" style="position: static; margin-bottom: 12px; display: inline-block; background: #343a40;">Televisión</span>
+            <img src="<?php echo $television["imagen"]; ?>" class="news-image" 
+                 alt="<?php echo $television["titulo"]; ?>">
             <h3 class="news-title">
               <a href="#"><?php echo $television["titulo"]; ?></a>
             </h3>
@@ -600,6 +608,8 @@
         <article class="news-card news-card-small">
           <div class="news-body">
             <span class="news-category category-deportes" style="position: static; margin-bottom: 12px; display: inline-block;">Video</span>
+            <img src="<?php echo $video["imagen"]; ?>" class="news-image" 
+                 alt="<?php echo $video["titulo"]; ?>">
             <h3 class="news-title">
               <a href="#"><?php echo $video["titulo"]; ?></a>
             </h3>
@@ -624,6 +634,8 @@
         <article class="news-card news-card-small">
           <div class="news-body">
             <span class="news-category category-tecnologia" style="position: static; margin-bottom: 12px; display: inline-block;">Formación</span>
+            <img src="<?php echo $formacion["imagen"]; ?>" class="news-image" 
+                 alt="<?php echo $formacion["titulo"]; ?>">
             <h3 class="news-title">
               <a href="#"><?php echo $formacion["titulo"]; ?></a>
             </h3>
@@ -640,6 +652,8 @@
         <article class="news-card news-card-small">
           <div class="news-body">
             <span class="news-category category-nacional" style="position: static; margin-bottom: 12px; display: inline-block;">Empleo</span>
+            <img src="<?php echo $empleo["imagen"]; ?>" class="news-image" 
+                 alt="<?php echo $empleo["titulo"]; ?>">
             <h3 class="news-title">
               <a href="#"><?php echo $empleo["titulo"]; ?></a>
             </h3>
@@ -656,6 +670,8 @@
         <article class="news-card news-card-small">
           <div class="news-body">
             <span class="news-category category-internacional" style="position: static; margin-bottom: 12px; display: inline-block;">Sociedad</span>
+            <img src="<?php echo $sociedad["imagen"]; ?>" class="news-image" 
+                 alt="<?php echo $sociedad["titulo"]; ?>">
             <h3 class="news-title">
               <a href="#"><?php echo $sociedad["titulo"]; ?></a>
             </h3>
@@ -685,6 +701,8 @@
         <article class="news-card news-card-text">
           <div class="news-body">
             <span class="news-category category-deportes" style="position: static; margin-bottom: 15px; display: inline-block;">OpenStack</span>
+            <img src="<?php echo $openstack["imagen"]; ?>" class="news-image" 
+                 alt="<?php echo $openstack["titulo"]; ?>">
             <h3 class="news-title">
               <a href="#"><?php echo $openstack["titulo"]; ?></a>
             </h3>
@@ -701,6 +719,8 @@
         <article class="news-card news-card-text">
           <div class="news-body">
             <span class="news-category" style="position: static; margin-bottom: 15px; display: inline-block; background: #343a40;">Git</span>
+            <img src="<?php echo $git["imagen"]; ?>" class="news-image" 
+                 alt="<?php echo $git["titulo"]; ?>">
             <h3 class="news-title">
               <a href="#"><?php echo $git["titulo"]; ?></a>
             </h3>
@@ -719,6 +739,8 @@
         <article class="news-card news-card-text">
           <div class="news-body">
             <span class="news-category category-tecnologia" style="position: static; margin-bottom: 15px; display: inline-block;">Contenedores</span>
+             <img src="<?php echo $contenedores["imagen"]; ?>" class="news-image" 
+                 alt="<?php echo $contenedores["titulo"]; ?>">
             <h3 class="news-title">
               <a href="#"><?php echo $contenedores["titulo"]; ?></a>
             </h3>
@@ -735,6 +757,8 @@
         <article class="news-card news-card-text">
           <div class="news-body">
             <span class="news-category category-deportes" style="position: static; margin-bottom: 15px; display: inline-block;">OpenShift</span>
+            <img src="<?php echo $openshift["imagen"]; ?>" class="news-image" 
+                 alt="<?php echo $openshift["titulo"]; ?>">
             <h3 class="news-title">
               <a href="#"><?php echo $openshift["titulo"]; ?></a>
             </h3>
